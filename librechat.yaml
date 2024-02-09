@@ -1,0 +1,24 @@
+version: 1.0.2
+cache: true
+# Example Registration Object Structure
+registration:
+  allowedDomains:
+    - "gmail.com"
+endpoints:
+  custom:
+    # Mistral AI API
+    - name: "Mistral"
+      apiKey: "your_api_key"
+      baseURL: "https://api.mistral.ai/v1"
+      models: 
+        default: ["mistral-tiny", "mistral-small", "mistral-medium"]
+      titleConvo: true
+      titleModel: "mistral-tiny" 
+      summarize: false
+      summaryModel: "mistral-tiny" 
+      forcePrompt: false 
+      modelDisplayLabel: "Mistral"
+      addParams:
+        safe_prompt: true
+      # NOTE: For Mistral, it is necessary to drop the following parameters or you will encounter a 422 Error:
+      dropParams: ["stop", "user", "frequency_penalty", "presence_penalty"]
