@@ -19,6 +19,7 @@ endpoints:
       baseURL: "https://rivet-chat-api-production-77f2.up.railway.app"
       models:
         default: ["example"]
+      fetch: true
       titleConvo: true
       titleModel: "example"
       summarize: false
