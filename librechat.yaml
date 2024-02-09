@@ -16,7 +16,7 @@ endpoints:
     # Rivet
     - name: "Rivet"
       apiKey: "80f946e4-04ba-4687-8c9e-bd33337f0f90"
-      baseURL: "https://rivet-chat-api-production-77f2.up.railway.app"
+      baseURL: "https://rivet-chat-api-production-77f2.up.railway.app/v1"
       models:
         default: ["example.rivet-project"]
         fetch: true
