@@ -1,0 +1,9 @@
+# For more details on the override file, see the Docker Override Guide:
+# https://docs.librechat.ai/install/configuration/docker_override.html
+
+version: '3.4'
+
+services:
+  api:
+    volumes:
+      - ./librechat.yaml:/app/librechat.yaml
