@@ -2,7 +2,7 @@
 version: 1.0.2
 
 # Cache settings: Set to true to enable caching
-cache: false
+cache: true
 
 # Example Registration Object Structure (optional)
 registration:
@@ -16,7 +16,7 @@ endpoints:
     # Rivet
     - name: "Rivet"
       apiKey: "80f946e4-04ba-4687-8c9e-bd33337f0f90"
-      baseURL: "rivet-chat-api.railway.internal:3100"
+      baseURL: "https://rivet-chat-api-production-77f2.up.railway.app"
       models:
         default: ["example"]
       titleConvo: true
