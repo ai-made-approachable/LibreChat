@@ -2,7 +2,7 @@
 version: 1.0.2
 
 # Cache settings: Set to true to enable caching
-cache: true
+cache: false
 
 # Example Registration Object Structure (optional)
 registration:
