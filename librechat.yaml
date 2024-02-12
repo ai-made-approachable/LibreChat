@@ -15,7 +15,7 @@ endpoints:
   custom:
     # Rivet
     - name: "Rivet"
-      apiKey: "${rivet-chat-api.RIVET_CHAT_API_KEY}"
+      apiKey: "non_for_internal_api_call"
       baseURL: "http://rivet-chat-api.railway.internal:3100/v1"
       models:
         default: ["example.rivet-project"]
