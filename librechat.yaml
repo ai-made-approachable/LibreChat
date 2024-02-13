@@ -21,6 +21,6 @@ endpoints:
         default: ["example.rivet-project"]
         fetch: true
       titleConvo: true
-      titleModel: "summarizer.rivet-project",
-      titleMethod: "functions",
+      titleModel: "summarizer.rivet-project"
+      titleMethod: "functions"
       modelDisplayLabel: "Rivet"
