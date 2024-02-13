@@ -21,10 +21,4 @@ endpoints:
         default: ["example.rivet-project"]
         fetch: true
       titleConvo: true
-      titleModel: "example.rivet-project"
-      summarize: false
-      summaryModel: "example.rivet-project"
-      forcePrompt: false
       modelDisplayLabel: "Rivet"
-      addParams:
-        safe_prompt: true
