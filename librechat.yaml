@@ -22,5 +22,5 @@ endpoints:
         fetch: true
       titleConvo: true
       titleModel: "summarizer.rivet-project"
-      titleMethod: "functions"
+      titleMethod: "completion"
       modelDisplayLabel: "Rivet"
